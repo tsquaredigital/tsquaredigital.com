@@ -66,6 +66,32 @@ blockquote {
   background: #655E7A;
 }
 
+/* modified social-icons */
+.social-icons-top{
+  /* align-content:right; */
+  margin-left: 50%;
+}
+/*user class*/
+
+.social-icons-top{
+  margin-top: 0px;
+}
+
+.social-icons-top li {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.social-icons-top a {
+  display: inline-block;
+}
+
+.social-icons-top i {
+  color: #2C2C2C;
+  margin-right: 25px;
+  font-size: 25px;
+}
+
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
   box-shadow: none;
   height: 45px;
