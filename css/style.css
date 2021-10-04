@@ -77,6 +77,19 @@ blockquote {
   
   social-icons-top{
     display:none;}
+    .portfolio-work .block .portfolio-menu .btn-group label {
+      display: inline-block;
+      border: 1px solid #dedede;
+      padding: 8px 15px;
+      cursor: pointer;
+      font-size: 10px;
+      color: #333333;
+      outline: 0;
+      background: #fff;
+      margin: 1px;
+      border-radius: 0;
+      transition: all 0.3s ease;
+    }
 }_
 /* modified social-icons */
 .social-icons-top{
