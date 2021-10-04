@@ -8,11 +8,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 
 @media only screen and (max-width: 1085px) {
   .social-icons-top{
@@ -79,9 +74,7 @@ blockquote {
 }
 
 @media(max-width:418px){
-  body{
-    overflow: hidden;
-  }
+  
   social-icons-top{
     display:none;}
 }_
