@@ -8,6 +8,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+  .social-icons-top{
+    display:none;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
@@ -65,30 +77,38 @@ blockquote {
 .navbar-toggle .icon-bar {
   background: #655E7A;
 }
-
+.navbar {
+  background-color: #fff;!important
+}
+@media(max-width:418px){
+  social-icons-top{
+    display:none;}
+}_
 /* modified social-icons */
 .social-icons-top{
   /* align-content:right; */
-  margin-left: 50%;
+  margin-left:50%;
 }
 /*user class*/
 
 .social-icons-top{
   margin-top: 0px;
+  margin-left: 50%;
 }
 
 .social-icons-top li {
   display: inline-block;
-  margin: 0 6px;
+  margin: 0;
 }
 
 .social-icons-top a {
   display: inline-block;
+  padding:0px;
 }
 
 .social-icons-top i {
   color: #2C2C2C;
-  margin-right: 25px;
+  margin-right: 22px;
   font-size: 25px;
 }
 
@@ -2762,3 +2782,4 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
