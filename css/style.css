@@ -79,6 +79,9 @@ blockquote {
 }
 
 @media(max-width:418px){
+  body{
+    overflow: hidden;
+  }
   social-icons-top{
     display:none;}
 }_
