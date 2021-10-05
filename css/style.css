@@ -285,14 +285,14 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .bg-dark {
-  background: #202122;
+  background: #141516;
 }
 
 .section {
   padding: 100px 0;
 }
 
-.section-sm {
+.call {
   padding: 70px 0;
 }
 
@@ -821,22 +821,22 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .call-to-action {
-  padding: 70px 0px;
+  padding: 0px 0px;
   text-align: center;
 }
 
 .call-to-action h2 {
-  color: #fff;
+  color: rgb(32, 29, 29);
 }
 
 .call-to-action p {
-  color: #fff;
+  color: rgb(46, 43, 43);
 }
 
 .call-to-action .btn-main, .call-to-action .btn-transparent, .call-to-action .btn-small {
   padding: 15px 35px;
   font-size: 12px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .service {
@@ -2145,7 +2145,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .bg-1 {
-  background-image: url("../images/call-to-action-bg.jpg");
+  /* background-image: url("../images/call-to-action-bg.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
