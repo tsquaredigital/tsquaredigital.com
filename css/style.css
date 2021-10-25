@@ -318,9 +318,9 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .section-title p {
-  font-style: italic;
+  /* font-style: italic; */
   color: #666;
-  font-family: "Volkhov", serif;
+  /* font-family: "Volkhov", serif; */
 }
 
 .section-subtitle {
@@ -603,7 +603,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   position: relative;
 }
 
-.overly:before, .page-title:before, .slider:before {
+ .page-title:before, .slider:before {
   content: "";
   position: absolute;
   left: 0;
@@ -1050,7 +1050,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .testimonial {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 .testimonial .block h2 {
@@ -1809,7 +1809,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 .about .about-img img {
-  opacity: .6;
+  /* opacity: .6; */
   transition: all 0.5s ease-out;
 }
 
