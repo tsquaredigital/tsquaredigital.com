@@ -14,7 +14,19 @@ body {
     display:none;
   }
 }
-
+.banner-sub {
+  margin-top:3rem;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items:center;
+  align-items:center;
+  gap:9.2rem;
+}
+.ban {
+  height:3rem;
+  width:3rem;
+  background-color: #333;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
